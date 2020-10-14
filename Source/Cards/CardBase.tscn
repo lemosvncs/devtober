@@ -1,0 +1,103 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Source/Cards/CardBase.gd" type="Script" id=1]
+[ext_resource path="res://Assets/Fonts/punk kid.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://Assets/Cards/Action/moveR.png" type="Texture" id=3]
+[ext_resource path="res://Assets/Fonts/libel-suit-rg.ttf" type="DynamicFontData" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+size = 22
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=2]
+font_data = ExtResource( 4 )
+
+[node name="CenterContainer" type="Control"]
+modulate = Color( 0.945098, 0.945098, 0.945098, 1 )
+margin_right = 230.0
+margin_bottom = 300.0
+rect_pivot_offset = Vector2( 115, 150 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel" type="Panel" parent="."]
+margin_right = 230.0
+margin_bottom = 300.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="H1" type="HBoxContainer" parent="."]
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="H2" type="HBoxContainer" parent="."]
+anchor_left = 0.5
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -100.0
+margin_right = 100.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="V1" type="VBoxContainer" parent="H2"]
+margin_right = 200.0
+margin_bottom = 300.0
+rect_pivot_offset = Vector2( 100, 150 )
+focus_neighbour_top = NodePath("..")
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="MarginContainer" type="MarginContainer" parent="H2/V1"]
+margin_right = 200.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CardName" type="Label" parent="H2/V1"]
+margin_top = 4.0
+margin_right = 200.0
+margin_bottom = 29.0
+custom_fonts/font = SubResource( 1 )
+text = "Move"
+
+[node name="MarginContainer2" type="MarginContainer" parent="H2/V1"]
+margin_top = 33.0
+margin_right = 200.0
+margin_bottom = 33.0
+size_flags_horizontal = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Image" type="TextureRect" parent="H2/V1"]
+margin_top = 37.0
+margin_right = 200.0
+margin_bottom = 162.0
+hint_tooltip = "Whatever man"
+texture = ExtResource( 3 )
+stretch_mode = 6
+
+[node name="Description" type="Label" parent="H2/V1"]
+margin_top = 166.0
+margin_right = 200.0
+margin_bottom = 186.0
+custom_fonts/font = SubResource( 2 )
+text = "This is what this card do"
+valign = 2
+
+[node name="H3" type="HBoxContainer" parent="."]
+anchor_left = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
