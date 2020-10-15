@@ -16,9 +16,10 @@ Yah maybe a buffed out priest-like dude.
 
 Gurdaban is a globin and goblins construct things out of other things. Each time Gudaban destroys something, being it a enemy or a structure, he get's a card that he can place on the groud. Each turn, there's a chance (since it's improvised) that that card will produce power.
 
-## Catarina & The Chaos Engine.
+## Catarina & Chaotic System.
 
-Catarina is a Sorcerer. There's a chance she will find power each time she casts a spell. The more spells she cast, greater the chance.
+Catarina is a Sorcerer that finds power in disturbing the balance of entropy. Each time she casts magic, she rolls a d20, if it is a 20, she finds power in the chaos of the universe itself. Each magic also greatens the chance that she'll be successful on the power find test. 
+<!--There's a chance she will find power each time she casts a spell. The more spells she cast, greater the chance. -->
 
 ## Joy & The Spirit in The Things
 
