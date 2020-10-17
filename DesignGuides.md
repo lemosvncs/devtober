@@ -25,6 +25,58 @@ Catarina is a Sorcerer that finds power in disturbing the balance of entropy. Ea
 
 ## Kindness & The Spirit of Time
 
+# Glossary
+
+Stats: o conjunto de características numéricas usadas para calculos à respeito dos agentes ou hexes, como pontos-de-vida, ataque, movimento, etc.
+
+Agent Status: a positive or negative modification to a agent that passivily modifies its stats or capabilities.
+
+Hex Status: a positive or negative modification that is applied in a tile that can modify agents stats or capabilities, i.e. apply status to agents.
+
+# Game Systems
+
+## 1. Drag and Drop Cards
+
+## 2. Apply Status to hexs
+
+Being able to "release" cards in the hexes.
+
+## 3. Apply Status to Agents
+
+## 4. Card Database of all possible cards
+
+## Deck of Cards
+
+The collection of cards that a player can play troughtout the game.
+
+## 5. Hand of Cards
+
+The conjuct of cards that the player can play at that turn
+
+5.1: Card count
+
+5.2: Reorder the hand
+
+5.3: Card buy
+
+5.4: Automatic Card buy at the end of the turn
+
+## 6. Turns
+
+6.1: End turn buttom
+
+6.2: Automatic turn end
+
+## 7. Movement & A* (AStar)
+
+7.1 Calculate hexes that the player can move trough A* algorith.
+
+7.2 Move enemys.
+
+7.3 Obstacles.
+
+7.4 Untranspassable obstacles.
+
 # Credits
 
 Old World Country Kitchen Table By Don Carson, @https://poly.google.com/view/artB-Ky9rAz
